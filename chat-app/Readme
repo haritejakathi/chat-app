@@ -1,0 +1,49 @@
+# Chat App
+
+## Setup
+
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd chat-app
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the server:
+    ```bash
+    node server.js
+    ```
+
+4. Open your browser and go to `http://localhost:3000`
+
+## Features
+
+- User registration and authentication
+- Real-time messaging using WebSocket
+- Simple user interface
+
+## Deployment
+
+1. Push your code to a GitHub repository:
+    ```bash
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git remote add origin <repository-url>
+    git push -u origin master
+    ```
+
+2. Deploy to Heroku:
+    ```bash
+    heroku create
+    git push heroku master
+    heroku open
+    ```
+
+## Submission
+
+Provide the GitHub link and the hosted app link as part of your submission.
